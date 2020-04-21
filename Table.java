@@ -13,8 +13,9 @@ public class Table
 		this.poolTable=new JPanel();
 		poolTable.add(label);
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setSize(750,750);
+        window.setSize(980,600);
         window.setVisible(true);
+		window.setContentPane(poolTable);
 	}
 	public static void main(String[] args)
     {
