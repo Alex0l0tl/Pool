@@ -6,7 +6,8 @@ public class Table
 	private JPanel poolTable=new JPanel();
 	private JFrame window = new JFrame();
 	private ImageIcon table=new ImageIcon("Table.png");
-	private ImageIcon[] balls={new ImageIcon("1ball.png"),new ImageIcon("2ball.png"),new ImageIcon("3ball.png"),new ImageIcon("4ball.png"),new ImageIcon("5ball.png"),new ImageIcon("6ball.png"),new ImageIcon("7ball.png"),new ImageIcon("8ball.png"),new ImageIcon("WhiteBall.png",new ImageIcon("poolCue.png")};
+	private ImageIcon poolCue=new ImageIcon("PoolCue.png");
+	private ImageIcon[] balls={new ImageIcon("1ball.png"),new ImageIcon("2ball.png"),new ImageIcon("3ball.png"),new ImageIcon("4ball.png"),new ImageIcon("5ball.png"),new ImageIcon("6ball.png"),new ImageIcon("7ball.png"),new ImageIcon("8ball.png"),new ImageIcon("WhiteBall.png")};
 	private JLabel lblTable = new JLabel(table);
 	//private JLabel lblBall1 = new JLabel(ball1);
 	public Table()
