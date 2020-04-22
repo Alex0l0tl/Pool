@@ -44,8 +44,10 @@ public class Move
     ySpeed2 = p2FinalTrajectory[1] * mag;     
     } 
  
-        /**       * Converts a vector into a unit vector.      
-        * Used by the deflect() method to calculate the resultant direction after a collision.      */     
+        /**       
+        * Converts a vector into a unit vector.      
+        * Used by the deflect() method to calculate the resultant direction after a collision.      
+        */     
     private double[] normalizeVector(double[] vec)     
     {         
         double mag = 0.0;         
